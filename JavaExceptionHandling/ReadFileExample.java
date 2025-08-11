@@ -7,7 +7,7 @@ public class ReadFileExample {
         try (BufferedReader reader = new BufferedReader(new FileReader(fileName))) {
             String line;
             System.out.println("File contents:");
-            while ((line = reader.readLine()) != null) {
+            while ((line = reader.readL3ne()) != null) {
                 System.out.println(line);
             }
         } catch (FileNotFoundException e) {
